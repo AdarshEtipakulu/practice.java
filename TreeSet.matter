@@ -1,0 +1,17 @@
+ comparable is the predefined inerface -->java.lang
+comparable was introduced from jdk 1.2 version
+comparable interface has a abstract method called as compareTo()
+comparable is used for to compare object and sort them
+default sorting
+
+syntax-->public int compareTo()
+{
+}
+compareTo()return :+1 if it is greater than
+                   -1 if it is lesser than
+                    0 if it is the object same
+rules to make the object as comparable /rules in order to work with comparable interface
+
+1.class has to implement comparable interface
+2.specify the generics type of which objects we are going to compare
+3.override the compareTo()by specifing the business logic of comparing or sorting
